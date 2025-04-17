@@ -1,0 +1,10 @@
+<MaterialsLib Name="Default Materials">
+	<!-- NOTE: ALWAYS USE UNIQUE MATERIAL NAMES ACROSS MATERIAL LIBRARIES -->
+	<!-- IN MODEL MATERIALS DEFINITONS USE THEN ONLY MaterialRef TAG -->
+	<Material Name="ComponentsContractPackage_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Physical_item\ComponentsContractPackage_LOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Physical_item\ComponentsContractPackage_LOD3_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Physical_item\ComponentsContractPackage_LOD3_add.dds</Parameter>
+	</Material>
+</MaterialsLib>

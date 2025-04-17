@@ -1,0 +1,8 @@
+G:\GitHub\Local\yellow51.dev\SpaceEngineers\Assets\Tools\MWMBuilder\MwmBuilder.exe.config
+G:\GitHub\Local\yellow51.dev\SpaceEngineers\Assets\Tools\MWMBuilder\MwmBuilder.exe
+G:\GitHub\Local\yellow51.dev\SpaceEngineers\Assets\Tools\MWMBuilder\MwmBuilder.pdb
+G:\GitHub\Local\yellow51.dev\VRage.MWMBuilder\obj\Release\VRage.MWMBuilder.csproj.AssemblyReference.cache
+G:\GitHub\Local\yellow51.dev\VRage.MWMBuilder\obj\Release\VRage.MWMBuilder.csproj.CoreCompileInputs.cache
+G:\GitHub\Local\yellow51.dev\VRage.MWMBuilder\obj\Release\VRage.MW.35F6B67D.Up2Date
+G:\GitHub\Local\yellow51.dev\VRage.MWMBuilder\obj\Release\MwmBuilder.exe
+G:\GitHub\Local\yellow51.dev\VRage.MWMBuilder\obj\Release\MwmBuilder.pdb

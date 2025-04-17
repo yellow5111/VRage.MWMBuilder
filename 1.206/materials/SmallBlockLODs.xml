@@ -1,0 +1,418 @@
+<MaterialsLib Name="Default Materials">
+	<!-- NOTE: ALWAYS USE UNIQUE MATERIAL NAMES ACROSS MATERIAL LIBRARIES -->
+	<!-- IN MODEL MATERIALS DEFINITONS USE THEN ONLY MaterialRef TAG -->
+	<Material Name="SmallConveyor_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallConveyor_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallConveyor_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallConveyor_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallConveyorTube_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallConveyorTube_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallConveyorTube_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallConveyorTube_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallConveyorTubeMedium_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallConveyorTubeMedium_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallConveyorTubeMedium_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallConveyorTubeMedium_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallConveyorTubeCurved_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallConveyorTubeCurved_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallConveyorTubeCurved_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallConveyorTubeCurved_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallConveyorFrameMedium_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallConveyorFrameMedium_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallConveyorFrameMedium_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallConveyorFrameMedium_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallConveyorHub_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallConveyorHub_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallConveyorHub_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallConveyorHub_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallConveyorSorterSmall_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallConveyorSorterSmall_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallConveyorSorterSmall_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallConveyorSorterSmall_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallConveyorSorterMedium_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallConveyorSorterMedium_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallConveyorSorterMedium_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallConveyorSorterMedium_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallDriller_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallDriller_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallDriller_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallDriller_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallGatlingBarrel_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallGatlingBarrel_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallGatlingBarrel_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallGatlingBarrel_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallGatlingGun_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallGatlingGun_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallGatlingGun_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallGatlingGun_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallGatlingTurret_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallGatlingTurret_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallGatlingTurret_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallGatlingTurret_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallGatlingTurretBarrel_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallGatlingTurretBarrel_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallGatlingTurretBarrel_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallGatlingTurretBarrel_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallGatlingTurretBase1_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallGatlingTurretBase1_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallGatlingTurretBase1_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallGatlingTurretBase1_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallGrinder_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallGrinder_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallGrinder_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallGrinder_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallMergeBlock_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallMergeBlock_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallMergeBlock_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallMergeBlock_LOD2_add.dds</Parameter>
+	</Material>	
+	<Material Name="SmallMergeBlock_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallMergeBlock_LOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallMergeBlock_LOD3_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallMergeBlock_LOD3_add.dds</Parameter>
+	</Material>	
+	<Material Name="SmallMotorAdvancedRotor_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallMotorAdvancedRotor_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallMotorAdvancedRotor_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallMotorAdvancedRotor_LOD2_add.dds</Parameter>
+	</Material>	
+	<Material Name="SmallMotorAdvancedStator_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallMotorAdvancedStator_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallMotorAdvancedStator_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallMotorAdvancedStator_LOD2_add.dds</Parameter>
+	</Material>	
+	<Material Name="SmallOxygenPressurizer_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallOxygenPressurizer_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallOxygenPressurizer_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallOxygenPressurizer_LOD2_add.dds</Parameter>
+	</Material>	
+	<Material Name="SmallOxygenPressurizer_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallOxygenPressurizer_LOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallOxygenPressurizer_LOD3_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallOxygenPressurizer_LOD3_add.dds</Parameter>
+	</Material>	
+	<Material Name="SmallOxygenGenerator_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallOxygenGenerator_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallOxygenGenerator_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallOxygenGenerator_LOD2_add.dds</Parameter>
+	</Material>	
+	<Material Name="SmallOxygenStorage_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallOxygenStorage_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallOxygenStorage_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallOxygenStorage_LOD2_add.dds</Parameter>
+	</Material>	
+	<Material Name="SmallOxygenGenerator_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallOxygenGenerator_LOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallOxygenGenerator_LOD3_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallOxygenGenerator_LOD3_add.dds</Parameter>
+	</Material>	
+	<Material Name="SmallProgrammingBlock_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallProgrammingBlock_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallProgrammingBlock_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallProgrammingBlock_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallProjector_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallProjector_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallProjector_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallProjector_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallRemoteControl_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallRemoteControl_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallRemoteControl_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallRemoteControl_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallRemoteControl_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallRemoteControl_LOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallRemoteControl_LOD3_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallRemoteControl_LOD3_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallRocketLauncher_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallRocketLauncher_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallRocketLauncher_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallRocketLauncher_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallRocketLauncher_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallRocketLauncher_LOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallRocketLauncher_LOD3_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallRocketLauncher_LOD3_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallRocketLauncherReload_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallRocketLauncherReload_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallRocketLauncherReload_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallRocketLauncherReload_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallMissileTurret_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallMissileTurret_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallMissileTurret_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallMissileTurret_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallMissileTurretBarrels_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallMissileTurretBarrels_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallMissileTurretBarrels_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallMissileTurretBarrels_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallMissileTurretBase1_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallMissileTurretBase1_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallMissileTurretBase1_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallMissileTurretBase1_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallMissileTurretBase1_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallMissileTurretBase1_LOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallMissileTurretBase1_LOD3_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallMissileTurretBase1_LOD3_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallSolarPanel_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallSolarPanel_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallSolarPanel_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallSolarPanel_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallSoundBlock_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallSoundBlock_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallSoundBlock_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallSoundBlock_LOD2_add.dds</Parameter>
+	</Material>	
+	<Material Name="SmallSpaceBallBlock_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallSpaceBallBlock_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallSpaceBallBlock_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallSpaceBallBlock_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallSpaceBallBlock_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallSpaceBallBlock_LOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallSpaceBallBlock_LOD3_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallSpaceBallBlock_LOD3_add.dds</Parameter>
+	</Material>		
+	<Material Name="SmallTextPanel_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallTextPanel_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallTextPanel_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallTextPanel_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallTimerBlock_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallTimerBlock_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallTimerBlock_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallTimerBlock_LOD2_add.dds</Parameter>
+	</Material>	
+	<Material Name="SmallTimerBlock_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallTimerBlock_LOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallTimerBlock_LOD3_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallTimerBlock_LOD3_add.dds</Parameter>
+	</Material>	
+	<Material Name="SmallTires">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallTires_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallTires_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallTires_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallThrustSmall_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallThrustSmall_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallThrustSmall_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallThrustSmall_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallThrustSmall_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallThrustSmall_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallThrustSmall_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallThrustSmall_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallThrustLarge_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallThrustLarge_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallThrustLarge_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallThrustLarge_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallThrustLarge_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallThrustLarge_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallThrustLarge_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallThrustLarge_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallWheelSuspension1x1">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallWheelSuspension1x1_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallWheelSuspension1x1_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallWheelSuspension1x1_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallWheelSuspension3x3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallWheelSuspension3x3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallWheelSuspension3x3_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallWheelSuspension3x3_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallWheelSuspension5x5">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallWheelSuspension5x5_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallWheelSuspension5x5_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallWheelSuspension5x5_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallVirtualMassBlock_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallVirtualMassBlock_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallVirtualMassBlock_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallVirtualMassBlock_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallLCDPanelWide_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallLCDPanelWide_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallLCDPanelWide_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallLCDPanelWide_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallLCDPanel_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallLCDPanel_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallLCDPanel_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallLCDPanel_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallTrapdoor_Small_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallTrapdoor_Small_Door1_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_Door1_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_Door1_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_Door1_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallTrapdoor_Small_Door2_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_Door1_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_Door1_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_Door1_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallTrapdoor_Small_Door3_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_Door1_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_Door1_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_Door1_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallTrapdoor_Small_Door4_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_Door1_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_Door1_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallTrapdoor_Small_Door1_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallHydrogenEngine_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallHydrogenEngine_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallHydrogenEngine_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallHydrogenEngine_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallHydrogenEngine_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallHydrogenEngine_LOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallHydrogenEngine_LOD3_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallHydrogenEngine_LOD3_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallSurvivalKit_LOD2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallSurvivalKit_LOD2_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallSurvivalKit_LOD2_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallSurvivalKit_LOD2_add.dds</Parameter>
+	</Material>
+	<Material Name="SmallSurvivalKit_LOD3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallSurvivalKit_LOD3_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallSurvivalKit_LOD3_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallSurvivalKit_LOD3_add.dds</Parameter>
+	</Material>
+    <Material Name="SmallBatterySmall1x1_LOD2">
+      <Parameter Name="Technique">MESH</Parameter>
+      <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallBatterySmall1x1_LOD2_cm.dds</Parameter>
+      <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallBatterySmall1x1_LOD2_ng.dds</Parameter>
+      <Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallBatterySmall1x1_LOD2_add.dds</Parameter>
+    </Material>
+    <Material Name="SmallBatterySmall_LOD2">
+      <Parameter Name="Technique">MESH</Parameter>
+      <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallBatterySmall_LOD2_cm.dds</Parameter>
+      <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallBatterySmall_LOD2_ng.dds</Parameter>
+      <Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallBatterySmall_LOD2_add.dds</Parameter>
+    </Material>
+    <Material Name="SmallBatterySmall_LOD3">
+      <Parameter Name="Technique">MESH</Parameter>
+      <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallBatterySmall_LOD3_cm.dds</Parameter>
+      <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallBatterySmall_LOD3_ng.dds</Parameter>
+      <Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallBatterySmall_LOD3_add.dds</Parameter>
+    </Material>
+    <Material Name="SmallCryopod_LOD2">
+      <Parameter Name="Technique">MESH</Parameter>
+      <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallCryopod_LOD2_cm.dds</Parameter>
+      <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallCryopod_LOD2_ng.dds</Parameter>
+      <Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallCryopod_LOD2_add.dds</Parameter>
+    </Material>
+    <Material Name="SmallCryopod_LOD3">
+      <Parameter Name="Technique">MESH</Parameter>
+      <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallCryopod_LOD3_cm.dds</Parameter>
+      <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallCryopod_LOD3_ng.dds</Parameter>
+      <Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallCryopod_LOD3_add.dds</Parameter>
+    </Material>
+    <Material Name="SmallHydrogenTankSmall_LOD2">
+	  <Parameter Name="Technique">MESH</Parameter>
+	  <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallHydrogenTankSmall_LOD2_cm.dds</Parameter>
+	  <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallHydrogenTankSmall_LOD2_ng.dds</Parameter>
+	  <Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallHydrogenTankSmall_LOD2_add.dds</Parameter>
+  	</Material>
+	<Material Name="SmallHydrogenTankSmall_LOD3">
+	  <Parameter Name="Technique">MESH</Parameter>
+	  <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\lods\SmallHydrogenTankSmall_LOD3_cm.dds</Parameter>
+	  <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\lods\SmallHydrogenTankSmall_LOD3_ng.dds</Parameter>
+	  <Parameter Name="AddMapsTexture">Textures\Models\Cubes\lods\SmallHydrogenTankSmall_LOD3_add.dds</Parameter>
+	</Material>
+</MaterialsLib>
