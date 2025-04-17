@@ -46,7 +46,7 @@
             <!-- Run button -->
             <Button Name="RunButton" Content="Run MWMBuilder" HorizontalAlignment="Center" Width="200"/>
 
-            <!-- Run button -->
+            <!-- Close button -->
             <Button Name="CloseButton" Content="Close VRage2 HUB" HorizontalAlignment="Center" Width="200"/>
 
             <!-- Status -->
