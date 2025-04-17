@@ -1,0 +1,36 @@
+<!-- SplashWindow.axaml -->
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="VRage2.HUB.Workshop.SplashWindow"
+        Width="600" Height="400"
+        WindowStartupLocation="CenterScreen"
+        SystemDecorations="None"
+        Background="Black">
+    <StackPanel HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Spacing="16">
+        <Image Source="/Content/Textures/splash.png"
+               MaxWidth="500"
+               Stretch="Uniform"/>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Spacing="8">
+            
+            <Ellipse x:Name="Spinner"
+                     Width="64" Height="64"
+                     Stroke="White"
+                     StrokeThickness="3"
+                     StrokeDashArray="4"
+                     RenderTransformOrigin="0.5,0.5">
+                <Ellipse.RenderTransform>
+                    <RotateTransform Angle="0"/>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <TextBlock Text="LOADING"
+                       VerticalAlignment="Center"
+                       FontSize="32"
+                       FontWeight="Bold"
+                       Foreground="White"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

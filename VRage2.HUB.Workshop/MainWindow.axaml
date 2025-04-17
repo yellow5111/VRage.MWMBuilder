@@ -1,0 +1,69 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="VRage2.HUB.Workshop.MainWindow"
+        Title="VRage2.HUB.Workshop" Width="1440" Height="720" CanResize="False" Background="#262626">
+  <Grid Margin="10">
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="350"/>
+      <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+
+    <!-- Left Pane: Mod Folder List -->
+    <Border Grid.Column="0" Padding="5" BorderBrush="Gray" BorderThickness="1" CornerRadius="4">
+      <Grid RowDefinitions="Auto, *">
+        <TextBlock Text="Mod Folders" FontWeight="Bold" Margin="0,0,0,5"/>
+        <ListBox Name="ModFolderListBox" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                 SelectionChanged="ModFolderListBox_SelectionChanged"/>
+      </Grid>
+    </Border>
+
+    <!-- Right Pane: Details -->
+    <Border Grid.Column="1" Padding="10" BorderBrush="Gray" BorderThickness="1" CornerRadius="4">
+      <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,*,Auto"
+            ColumnDefinitions="Auto,*,Auto" >
+        <!-- Thumbnail -->
+        <TextBlock Text="Thumbnail:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,5,0"/>
+        <Button Content="Browse..." Grid.Row="0" Grid.Column="2" Click="BrowseThumbnailButton_Click"/>
+        <Image Name="ThumbnailPreview" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"
+               Height="100" Stretch="Uniform" Margin="0,5,0,10"/>
+        <TextBlock Name="MissingThumbTextBlock" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"
+                   Text="MISSING THUMBNAIL" Foreground="Red" FontWeight="Bold"
+                   HorizontalAlignment="Center" VerticalAlignment="Center" IsVisible="False"/>
+
+        <!-- Title -->
+        <TextBlock Text="Title:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,5,0"/>
+        <TextBox Name="TitleTextBox" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,0,0,10"/>
+
+        <!-- Description -->
+        <TextBlock Text="Description:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Top" Margin="0,0,5,0"/>
+        <TextBox Name="DescriptionTextBox" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2"
+                 AcceptsReturn="True" Height="80" Margin="0,0,0,10"/>
+
+        <!-- Change Note -->
+        <TextBlock Text="Change Note:" Grid.Row="4" Grid.Column="0" VerticalAlignment="Top" Margin="0,0,5,0"/>
+        <TextBox Name="ChangeNoteTextBox" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2"
+                 AcceptsReturn="True" Height="60" Margin="0,0,0,10"/>
+
+        <!-- Visibility -->
+        <TextBlock Text="Visibility:" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,5,0"/>
+        <ComboBox Name="VisibilityComboBox" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,0,0,10">
+          <ComboBoxItem Content="Public"/>
+          <ComboBoxItem Content="Friends Only"/>
+          <ComboBoxItem Content="Private"/>
+        </ComboBox>
+
+        <!-- Progress -->
+        <ProgressBar Name="UploadProgressBar" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="3"
+                     Height="20" IsVisible="False" Minimum="0" Maximum="100" Margin="0,0,0,10"/>
+
+        <!-- Status -->
+        <TextBlock Name="StatusTextBlock" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="3"
+                   TextWrapping="Wrap" Margin="0,0,0,10"/>
+
+        <!-- Upload Button -->
+        <Button Name="UploadButton" Content="Upload" Grid.Row="8" Grid.Column="2"
+                HorizontalAlignment="Right" Click="UploadButton_Click"/>
+      </Grid>
+    </Border>
+  </Grid>
+</Window>
