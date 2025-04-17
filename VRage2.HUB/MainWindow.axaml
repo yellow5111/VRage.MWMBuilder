@@ -1,0 +1,56 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="VRage2.HUB.MainWindow"
+        Title="VRage2.HUB"
+        Width="600" Height="480"
+        CanResize="False"
+        Background="#262626">
+    <ScrollViewer>
+        <StackPanel Margin="10" Spacing="8">
+            <!-- MWMBuilder.exe path -->
+            <TextBlock Text="MWMBuilder.exe:"/>
+            <StackPanel Orientation="Horizontal" Spacing="4">
+                <TextBox Name="BuilderPathBox" Width="450"
+                         Text="VRage.MWMBuilder\1.206\MwmBuilder.exe"/>
+                <Button Name="BrowseBuilder" Content="Browse…" Width="80"/>
+            </StackPanel>
+
+            <!-- Source folder -->
+            <TextBlock Text="Source Folder:"/>
+            <StackPanel Orientation="Horizontal" Spacing="4">
+                <TextBox Name="SourceFolderBox" Width="450"/>
+                <Button Name="BrowseSource" Content="Browse…" Width="80"/>
+            </StackPanel>
+
+            <!-- Subtype ID -->
+            <TextBlock Text="Subtype ID:"/>
+            <TextBox Name="SubtypeBox"/>
+
+            <!-- Output folder -->
+            <TextBlock Text="Output Folder:"/>
+            <StackPanel Orientation="Horizontal" Spacing="4">
+                <TextBox Name="OutputFolderBox" Width="450"/>
+                <Button Name="BrowseOutput" Content="Browse…" Width="80"/>
+            </StackPanel>
+
+            <!-- Materials folder -->
+            <TextBlock Text="Materials Folder:"/>
+            <StackPanel Orientation="Horizontal" Spacing="4">
+                <TextBox Name="MaterialsBox" Width="450"/>
+                <Button Name="BrowseMaterials" Content="Browse…" Width="80"/>
+            </StackPanel>
+
+            <!-- Clean checkbox -->
+            <CheckBox Name="CleanCheck" Content="Clean loose files"/>
+
+            <!-- Run button -->
+            <Button Name="RunButton" Content="Run MWMBuilder" HorizontalAlignment="Center" Width="200"/>
+
+            <!-- Run button -->
+            <Button Name="CloseButton" Content="Close VRage2 HUB" HorizontalAlignment="Center" Width="200"/>
+
+            <!-- Status -->
+            <TextBlock Name="StatusText" TextWrapping="Wrap"/>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

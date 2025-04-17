@@ -4,6 +4,8 @@ VisualStudioVersion = 17.13.35818.85 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRage.MWMBuilder", "VRage.MWMBuilder.csproj", "{531D399F-0EE1-4EB9-B18B-463BB23972B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRage2.HUB", "VRage2.HUB\VRage2.HUB.csproj", "{1269BF09-914A-46E6-816F-F95AD42A3B36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,18 @@ Global
 		{531D399F-0EE1-4EB9-B18B-463BB23972B9}.Release|x64.Build.0 = Release|Any CPU
 		{531D399F-0EE1-4EB9-B18B-463BB23972B9}.Release|x86.ActiveCfg = Release|x86
 		{531D399F-0EE1-4EB9-B18B-463BB23972B9}.Release|x86.Build.0 = Release|x86
+		{1269BF09-914A-46E6-816F-F95AD42A3B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1269BF09-914A-46E6-816F-F95AD42A3B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1269BF09-914A-46E6-816F-F95AD42A3B36}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1269BF09-914A-46E6-816F-F95AD42A3B36}.Debug|x64.Build.0 = Debug|Any CPU
+		{1269BF09-914A-46E6-816F-F95AD42A3B36}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1269BF09-914A-46E6-816F-F95AD42A3B36}.Debug|x86.Build.0 = Debug|Any CPU
+		{1269BF09-914A-46E6-816F-F95AD42A3B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1269BF09-914A-46E6-816F-F95AD42A3B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1269BF09-914A-46E6-816F-F95AD42A3B36}.Release|x64.ActiveCfg = Release|Any CPU
+		{1269BF09-914A-46E6-816F-F95AD42A3B36}.Release|x64.Build.0 = Release|Any CPU
+		{1269BF09-914A-46E6-816F-F95AD42A3B36}.Release|x86.ActiveCfg = Release|Any CPU
+		{1269BF09-914A-46E6-816F-F95AD42A3B36}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
