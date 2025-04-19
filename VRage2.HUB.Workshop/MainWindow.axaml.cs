@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using Avalonia.Controls;
@@ -19,20 +20,34 @@ namespace VRage2.HUB.Workshop
         private PublishedFileId_t existingId;
         private string currentThumbnailPath = "";
 
+        public ObservableCollection<TagItem> TagItems { get; }
+            = new ObservableCollection<TagItem>();
+
         public MainWindow()
         {
             InitializeComponent();
-            /*
-            var splashWindow = new SplashWindow();
-            splashWindow.Close(); // Close the splash window
-            */
+
+            DataContext = this;
+
+            var categories = new[]
+            {
+                "Block", "Respawn Ship", "Script", "Modpack", "Skybox",
+                "Character", "Animation", "Asteroid", "Planet",
+                "Production", "NPC", "Other", "Font"
+            };
+            var tags = new[] { "hud", "ServerScripts", "NoScripts" };
+            foreach (var t in categories.Concat(tags))
+                TagItems.Add(new TagItem(t));
+
+            ModFolderListBox.SelectionChanged += ModFolderListBox_SelectionChanged;
+            BrowseThumbnailButton.Click += BrowseThumbnailButton_Click;
+            UploadButton.Click += UploadButton_Click;
 
             UploadButton.IsEnabled = false;
 
-            
-            var timer = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(100) };
-            timer.Tick += (_, __) => Steamworks.SteamAPI.RunCallbacks();
-            timer.Start();
+            var steamTimer = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(100) };
+            steamTimer.Tick += (_, __) => SteamAPI.RunCallbacks();
+            steamTimer.Start();
 
             modsRoot = Path.Combine(
                 Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
@@ -43,6 +58,13 @@ namespace VRage2.HUB.Workshop
 
             LoadModFolders();
             VisibilityComboBox.SelectedIndex = 0;
+
+            if (ModFolderListBox.SelectedItem is string folder)
+            {
+                var fullPath = Path.Combine(modsRoot, folder);
+                currentThumbnailPath = Path.Combine(fullPath, "thumb.jpg");
+                RefreshThumbnail();
+            }
         }
 
         private void LoadModFolders()
@@ -104,7 +126,6 @@ namespace VRage2.HUB.Workshop
             if (ModFolderListBox.SelectedItem is not string folder) return;
             var fullPath = Path.Combine(modsRoot, folder);
 
-            // === PRE-FLIGHT CHECKS ===
             if (!Directory.Exists(fullPath))
             {
                 StatusTextBlock.Text = $"❌ Content folder not found:\n{fullPath}";
@@ -115,14 +136,12 @@ namespace VRage2.HUB.Workshop
                 StatusTextBlock.Text = $"❌ Thumbnail not found:\n{currentThumbnailPath}";
                 return;
             }
-            // Optional: ensure it's non-zero bytes
             var fileInfo = new FileInfo(currentThumbnailPath);
             if (fileInfo.Length < 16)
             {
                 StatusTextBlock.Text = $"❌ Thumbnail too small (must be ≥16 bytes):\n{currentThumbnailPath}";
                 return;
             }
-            // =========================
 
             // Decide create vs update
             var vrg2 = Directory.GetFiles(fullPath, "*.VRG2").FirstOrDefault();
@@ -144,7 +163,6 @@ namespace VRage2.HUB.Workshop
                 createItemResult.Set(handle);
             }
 
-            // Show progress bar
             UploadProgressBar.IsVisible = true;
             UploadProgressBar.Value = 0;
         }
@@ -159,7 +177,6 @@ namespace VRage2.HUB.Workshop
                 $"Thumbnail File:\n{currentThumbnailPath}";
                 */
 
-            // === PRE-FLIGHT AGAIN to be extra safe ===
             if (!Directory.Exists(contentPath))
             {
                 StatusTextBlock.Text = $"❌ Content folder not found:\n{contentPath}";
@@ -172,29 +189,31 @@ namespace VRage2.HUB.Workshop
                 UploadProgressBar.IsVisible = false;
                 return;
             }
-            // ==========================================
 
             currentUpdateHandle = SteamUGC.StartItemUpdate(
                 new AppId_t(244850),
                 fileId);
 
-            // Set metadata
             SteamUGC.SetItemTitle(currentUpdateHandle, TitleTextBox.Text ?? "");
             SteamUGC.SetItemDescription(currentUpdateHandle, DescriptionTextBox.Text ?? "");
             SteamUGC.SetItemVisibility(currentUpdateHandle,
                 (ERemoteStoragePublishedFileVisibility)VisibilityComboBox.SelectedIndex);
 
-            // Set content & preview
             SteamUGC.SetItemContent(currentUpdateHandle, contentPath);
             SteamUGC.SetItemPreview(currentUpdateHandle, currentThumbnailPath);
 
-            // Submit with change note
+            var chosen = TagItems
+                .Where(t => t.IsSelected)
+                .Select(t => t.Name)
+                .ToArray();
+            if (chosen.Length > 0)
+                SteamUGC.SetItemTags(currentUpdateHandle, chosen);
+
             var call = SteamUGC.SubmitItemUpdate(
                 currentUpdateHandle,
                 ChangeNoteTextBox.Text ?? "");
             submitItemUpdateResult.Set(call);
 
-            // Start polling progress
             progressTimer = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(500) };
             progressTimer.Tick += UpdateProgress;
             progressTimer.Start();
@@ -211,7 +230,6 @@ namespace VRage2.HUB.Workshop
                     return;
                 }
 
-                // Save new ID for future updates
                 var newId = cb.m_nPublishedFileId.m_PublishedFileId;
                 var folder = ModFolderListBox.SelectedItem as string;
                 var path = Path.Combine(modsRoot, folder!, $"{newId}.VRG2");
